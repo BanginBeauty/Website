@@ -6,31 +6,6 @@ body {
   color: var(--navy);
 }
 
-a.fb {
-  color: #fff;
-  margin: auto;
-  margin-top: 30px;
-  display: block;
-  text-align: center;
-  background: #444;
-  max-width: 200px;
-  border-radius: 8px;
-}
-a.fb span {
-  padding: 15px;
-  border-radius: 8px;
-  font-weight: 700;
-  display: block;
-}
-a.fb img {
-  width: 50px;
-  margin-bottom: 8px;
-}
-a.fb:hover {
-  color: #fff;
-  background: #333;
-}
-
 header .logo img {
   margin: auto;
   padding: 40px;
@@ -109,13 +84,14 @@ header .logo img {
 .contact .contact-info {
   position: relative;
 }
-.contact .insta {
+.contact .social {
   width: 48px;
   height: 48px;
   background: #fff;
   border-radius: 50%;
   padding: 12px;
+  margin: 8px 4px;
 }
-.contact .insta:hover {
+.contact .social:hover {
   background: var(--gold);
 }/*# sourceMappingURL=style.css.map */
