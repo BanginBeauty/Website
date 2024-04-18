@@ -7,6 +7,9 @@ body {
   color: var(--navy);
 }
 
+a{
+  color: var(--navy);
+}
 
 
 header {
@@ -100,4 +103,9 @@ header {
       background: var(--gold);
     }
   }
+}
+
+.tc{
+  max-width: 960px;
+  margin: auto;
 }
