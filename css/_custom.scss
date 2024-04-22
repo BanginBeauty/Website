@@ -11,6 +11,20 @@ a{
   color: var(--navy);
 }
 
+.book-now{
+  color: var(--navy);
+  background: var(--gold);
+  font-size: 1.4rem;
+  border: 2px solid #fff;
+  font-weight: 700;
+  padding: 12px 14px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  &:hover{
+    color: var(--navy);
+    border: 2px solid var(--navy)
+  }
+}
 
 header {
   .logo {
